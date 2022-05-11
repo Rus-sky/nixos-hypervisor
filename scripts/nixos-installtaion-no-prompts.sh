@@ -3,7 +3,7 @@
 # This script could be called by putting it on a webserver (preferrably on the local LAN) and
 # running the following command from the nixos user shell in the nixos minimal installer.
 # !!needs testing!!
-# curl -s "https://raw.githubusercontent.com/jonpackard/nixos-hypervisor/main/scripts/nixos-installation-no-prompts.sh" | bash
+# sh <(curl -s "https://raw.githubusercontent.com/jonpackard/nixos-hypervisor/main/scripts/nixos-installation-no-prompts.sh" | bash)
 
 # Define variables
 export userSpaceDependencies="nixos.screenfetch nixos.htop" # Packages to be installed in the temp environment. These are placeholders. The variable can be empty.
